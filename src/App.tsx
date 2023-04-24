@@ -2,9 +2,8 @@ import React, {useState} from 'react';
 import JSONViewer  from './JSONViewer';
 import myJsonParse from './utils';
 function App() {
-  const [object, setObject] = useState<string>()
-  const [data, setData] = useState()
-  console.log(data)
+  const [object, setObject] = useState<string>("")
+  const [data, setData] = useState("")
   return (
     <main>
       <div className='code'>
