@@ -13,7 +13,7 @@ const JSONViewer:React.FC<Props>= ({value}) => {
   if (typeof value === 'string') {
     return <span>"{value}"</span>
   }
-  if ( value == null ) {
+  if ( value === null ) {
     return <span>{String(value)}</span>
   }
   if (Array.isArray(value)) {
@@ -65,7 +65,7 @@ const JSONViewer:React.FC<Props>= ({value}) => {
       {'}'}
     </span>
   }
-  return <span>{String(undefined)}</span>
+  return <span>null</span>
 }
 
 export default JSONViewer
