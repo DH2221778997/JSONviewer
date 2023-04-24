@@ -65,7 +65,7 @@ const JSONViewer:React.FC<Props>= ({value}) => {
       {'}'}
     </span>
   }
-  return <span>null</span>
+  return <span>{null}</span>
 }
 
 export default JSONViewer
