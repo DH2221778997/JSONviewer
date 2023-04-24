@@ -1,7 +1,5 @@
 export default function myJsonParse(str) {
-    if (str.length === 0) {
-      return ""
-    }
+
     let i = 0
       return parseValue()
         function parseValue() {
